@@ -8,7 +8,7 @@ Practice HTML/CSS/SASS.
 
 ## Install
 ```bash
-git clone https://github.com/OlenaAndrushchenko/FAQ.git
+git clone https://github.com/OlenaAndrushchenko/My-Favorite-Food-Web.git
 ```
 
 ```bash
@@ -18,3 +18,4 @@ npm install
 ## Stack
 - HTML
 - CSS
+- JS
