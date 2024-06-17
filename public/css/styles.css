@@ -106,10 +106,16 @@ p, li {
 
 .hero {
   padding-inline: 0;
+  display: flex;
 }
 .hero img {
   max-height: 500px;
   object-fit: cover;
+}
+
+.ingr-time {
+  display: grid;
+  grid-template-columns: 70% 30%;
 }
 
 footer {
@@ -133,6 +139,35 @@ footer p {
 .social-icons img {
   max-width: 32px;
   max-height: 32px;
+}
+
+.ingredients {
+  background-color: #E1D4C2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 0 0 35px 35px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ingredients-title {
+  grid-column: span 2;
+}
+
+.ingredients-subtitle {
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .time-container img {

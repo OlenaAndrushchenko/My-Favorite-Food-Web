@@ -42,9 +42,15 @@ p, li {
 
 .hero {
     padding-inline: 0;
+    display: flex;
 
     img {
         max-height: 500px;
         object-fit: cover;
     }
+}
+
+.ingr-time {
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
