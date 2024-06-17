@@ -1,6 +1,7 @@
 body {
-    background-color: antiquewhite;
+    background-color: #58524B;
 }
+
 
 img {
     width: 100%;
@@ -9,4 +10,15 @@ img {
 .container {
     max-width: 1440px;
     margin-inline: auto;
+    background-color: #FDF9F3;
+    padding-inline: 50px;
+}
+
+.hero {
+    padding-inline: 0;
+
+    img {
+        max-height: 500px;
+        object-fit: cover;
+    }
 }

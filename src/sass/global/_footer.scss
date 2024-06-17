@@ -2,10 +2,11 @@ footer {
     border-top: 1px solid black;
     padding: 15px;
 
-    .container {
+    .footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background-color: #58524B;
     }
 
     p {
@@ -18,7 +19,7 @@ footer {
     gap: 30px;
 
     img {
-        max-width: 40px;
-        max-height: 40px;
+        max-width: 32px;
+        max-height: 32px;
     }
 }

@@ -63,7 +63,7 @@ button {
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: #58524B;
 }
 
 img {
@@ -73,16 +73,27 @@ img {
 .container {
   max-width: 1440px;
   margin-inline: auto;
+  background-color: #FDF9F3;
+  padding-inline: 50px;
+}
+
+.hero {
+  padding-inline: 0;
+}
+.hero img {
+  max-height: 500px;
+  object-fit: cover;
 }
 
 footer {
   border-top: 1px solid black;
   padding: 15px;
 }
-footer .container {
+footer .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #58524B;
 }
 footer p {
   font-size: 14px;
@@ -93,8 +104,12 @@ footer p {
   gap: 30px;
 }
 .social-icons img {
-  max-width: 40px;
-  max-height: 40px;
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.time-container img {
+  max-height: 36px;
 }
 
 /*# sourceMappingURL=styles.css.map */

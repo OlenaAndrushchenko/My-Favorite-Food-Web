@@ -8,100 +8,96 @@
 </head>
 <body>
     <header>
-        <div class="title">
+        <div class="container title">
             <h1>Traditional Ukrainian borscht recipe</h1>
         </div>
     </header>
 
     <main>
-        <div class="hero">
-            <figure>
-                <img src="./public/assets/images/borscht.jpg" alt="Traditional Ukrainian borscht">
-            </figure>
+        <div class="container hero">
+                <figure>
+                    <img src="./public/assets/images/borscht.jpg" alt="Traditional Ukrainian borscht">
+                </figure>
         </div>
-        <section>
-            <div class="container">
-                <div class="ingredients">
-                    <h2 class="ingredients-title">Ingredients</h2>
-                    <div class="column">
-                        <ul>
-                            <li class="ingredients-subtitle">For the Broth:</li>
-                            <li><input type="checkbox" name="" id=""> 1½-2 liters of water</li>
-                            <li><input type="checkbox" name="" id=""> 400-500 grams of pork or beef on the bone</li>
-                        </ul>
-                        <ul>
-                            <li class="ingredients-subtitle">For the Sauté:</li>
-                            <li><input type="checkbox" name="" id=""> 2 small beets</li>
-                            <li><input type="checkbox" name="" id=""> 1 medium carrot</li>
-                            <li><input type="checkbox" name="" id=""> 3 medium onions</li>
-                            <li><input type="checkbox" name="" id=""> 4-5 tablespoons of vegetable oil</li>
-                            <li><input type="checkbox" name="" id=""> A pinch of citric acid, a little table vinegar, or juice from ½ a lemon</li>
-                            <li><input type="checkbox" name="" id=""> 2 tablespoons of tomato paste</li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <ul>
-                            <li class="ingredients-subtitle">For the Borscht:</li>
-                            <li><input type="checkbox" name="" id=""> 300 grams of fresh white cabbage</li>
-                            <li><input type="checkbox" name="" id=""> 4 medium potatoes</li>
-                            <li><input type="checkbox" name="" id=""> Salt to taste</li>
-                            <li><input type="checkbox" name="" id=""> 1-2 dried bay leaves</li>
-                            <li><input type="checkbox" name="" id=""> Fresh herbs to taste</li>
-                            <li><input type="checkbox" name="" id=""> 1 clove of garlic (optional)</li>
-                            <li><input type="checkbox" name="" id=""> A pinch of ground cloves (optional)</li>
-                            <li><input type="checkbox" name="" id=""> A pinch of ground black pepper (optional)</li>
-                            <li><input type="checkbox" name="" id=""> Sour cream (optional, for serving)</li>
-                        </ul>
-                    </div>
+        <section class="container">
+            <div class="ingredients">
+                <h2 class="ingredients-title">Ingredients</h2>
+                <div class="column">
+                    <ul>
+                        <li class="ingredients-subtitle">For the Broth:</li>
+                        <li><input type="checkbox" name="" id=""> 1½-2 liters of water</li>
+                        <li><input type="checkbox" name="" id=""> 400-500 grams of pork or beef on the bone</li>
+                    </ul>
+                    <ul>
+                        <li class="ingredients-subtitle">For the Sauté:</li>
+                        <li><input type="checkbox" name="" id=""> 2 small beets</li>
+                        <li><input type="checkbox" name="" id=""> 1 medium carrot</li>
+                        <li><input type="checkbox" name="" id=""> 3 medium onions</li>
+                        <li><input type="checkbox" name="" id=""> 4-5 tablespoons of vegetable oil</li>
+                        <li><input type="checkbox" name="" id=""> A pinch of citric acid, a little table vinegar, or juice from ½ a lemon</li>
+                        <li><input type="checkbox" name="" id=""> 2 tablespoons of tomato paste</li>
+                    </ul>
                 </div>
-                <div class="time-container">
-                    <h3>Time</h3>
-                    <div class="cooking-time">
-                        <img src="./public/assets/icons/clock-regular.svg" alt="clock icon" class="icon">
-                        <span class="time">2:00</span>
+                <div class="column">
+                    <ul>
+                        <li class="ingredients-subtitle">For the Borscht:</li>
+                        <li><input type="checkbox" name="" id=""> 300 grams of fresh white cabbage</li>
+                        <li><input type="checkbox" name="" id=""> 4 medium potatoes</li>
+                        <li><input type="checkbox" name="" id=""> Salt to taste</li>
+                        <li><input type="checkbox" name="" id=""> 1-2 dried bay leaves</li>
+                        <li><input type="checkbox" name="" id=""> Fresh herbs to taste</li>
+                        <li><input type="checkbox" name="" id=""> 1 clove of garlic (optional)</li>
+                        <li><input type="checkbox" name="" id=""> A pinch of ground cloves (optional)</li>
+                        <li><input type="checkbox" name="" id=""> A pinch of ground black pepper (optional)</li>
+                        <li><input type="checkbox" name="" id=""> Sour cream (optional, for serving)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="time-container">
+                <h3>Time</h3>
+                <div class="cooking-time">
+                    <img src="./public/assets/icons/clock-regular.svg" alt="clock icon" class="icon">
+                    <span class="time">2:00</span>
+                </div>
+                <div class="timer">
+                    <div class="minutes">
+                        <span id="m5">5</span>
+                        <span id="m10">10</span>
+                        <span id="m15">15</span>
+                        <span id="m20">20</span>
                     </div>
-                    <div class="timer">
-                        <div class="minutes">
-                            <span id="m5">5</span>
-                            <span id="m10">10</span>
-                            <span id="m15">15</span>
-                            <span id="m20">20</span>
-                        </div>
-                        <img src="./public/assets/icons/hourglass-half-regular.svg" alt="hourglass timer icon" class="icon">
-                        <span class="time" id="counter">0:00</span>
-                        <button id="start-timer">Start</button>
-                    </div>
+                    <img src="./public/assets/icons/hourglass-half-regular.svg" alt="hourglass timer icon" class="icon">
+                    <span class="time" id="counter">0:00</span>
+                    <button id="start-timer">Start</button>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <h2>Preparation</h2>
-                <div class="steps">
-                    <div class="step">
-                        <h4 class="preparation-subtitle">Step 1: Cook the Broth</h4>
-                        <p>Pour cold water into a pot, add the meat, and place it over medium heat. The broth will be tastier if you use meat on the bone.</p>
-                    </div>
-                    <div class="step">
-                        <h4 class="preparation-subtitle">Step 2: Prepare the Sauté</h4>
-                        <p>Wash and peel the beets, carrot, and onions. Grate the beets on a coarse grater, the carrot on a medium grater, and dice the onions into small cubes. Pour the oil into a frying pan and heat it over medium heat. Sauté the onions and carrots, stirring, for about 5 minutes. Add the grated beets. Add citric acid, vinegar, or lemon juice. This will ensure the borscht has a vibrant red color and a pleasant tanginess. Cook the sauté for another 5 minutes, then add the tomato paste, stir, and let it cook for another 5-7 minutes.</p>
-                    </div>
-                    <div class="step">
-                        <h4 class="preparation-subtitle">Step 3: Assemble the Borscht</h4>
-                        <p>Once the broth is ready, remove the meat from the pot. While it cools, add the shredded cabbage to the pot. After 5-10 minutes, add the diced or cubed potatoes. The order of adding vegetables can vary. If the cabbage is young, it is better to add it after the potatoes, or simultaneously if your potatoes cook quickly. While the potatoes are cooking, separate the meat from the bones and cut it into cubes. Return the meat to the soup. Salt to taste. Add the sautéed vegetables and stir. Add the bay leaf and finely chopped herbs. Cover the pot with a lid and cook for another 5-7 minutes. For additional aroma, you can add some minced garlic, ground cloves, or black pepper. Let the borscht sit under the lid for 5-10 minutes.</p>
-                    </div>
-                    <div class="step">
-                        <h4 class="preparation-subtitle">Step 4: Serving the Borscht</h4>
-                        <p>Borscht can be enjoyed immediately after cooking, but it usually tastes better the next day. Add sour cream and fresh herbs to each bowl. For extra tanginess, add a lemon wedge. Serve with rye bread or garlic buns. The dish also pairs well with lard and pampushki (Ukrainian garlic buns).</p>
-                    </div>
+        <section class="container">
+            <h2>Preparation</h2>
+            <div class="steps">
+                <div class="step">
+                    <h4 class="preparation-subtitle">Step 1: Cook the Broth</h4>
+                    <p>Pour cold water into a pot, add the meat, and place it over medium heat. The broth will be tastier if you use meat on the bone.</p>
+                </div>
+                <div class="step">
+                    <h4 class="preparation-subtitle">Step 2: Prepare the Sauté</h4>
+                    <p>Wash and peel the beets, carrot, and onions. Grate the beets on a coarse grater, the carrot on a medium grater, and dice the onions into small cubes. Pour the oil into a frying pan and heat it over medium heat. Sauté the onions and carrots, stirring, for about 5 minutes. Add the grated beets. Add citric acid, vinegar, or lemon juice. This will ensure the borscht has a vibrant red color and a pleasant tanginess. Cook the sauté for another 5 minutes, then add the tomato paste, stir, and let it cook for another 5-7 minutes.</p>
+                </div>
+                <div class="step">
+                    <h4 class="preparation-subtitle">Step 3: Assemble the Borscht</h4>
+                    <p>Once the broth is ready, remove the meat from the pot. While it cools, add the shredded cabbage to the pot. After 5-10 minutes, add the diced or cubed potatoes. The order of adding vegetables can vary. If the cabbage is young, it is better to add it after the potatoes, or simultaneously if your potatoes cook quickly. While the potatoes are cooking, separate the meat from the bones and cut it into cubes. Return the meat to the soup. Salt to taste. Add the sautéed vegetables and stir. Add the bay leaf and finely chopped herbs. Cover the pot with a lid and cook for another 5-7 minutes. For additional aroma, you can add some minced garlic, ground cloves, or black pepper. Let the borscht sit under the lid for 5-10 minutes.</p>
+                </div>
+                <div class="step">
+                    <h4 class="preparation-subtitle">Step 4: Serving the Borscht</h4>
+                    <p>Borscht can be enjoyed immediately after cooking, but it usually tastes better the next day. Add sour cream and fresh herbs to each bowl. For extra tanginess, add a lemon wedge. Serve with rye bread or garlic buns. The dish also pairs well with lard and pampushki (Ukrainian garlic buns).</p>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
-            <p>Created by Olena</p>
+        <div class="container footer">
+            <p>&copy; 2024. Traditional Ukrainian borscht recipe. Created by Olena</p>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./public/assets/icons/linkedin.svg" alt="linkedin"></a>
                 <a href="https://www.instagram.com/" target="_blank"><img src="./public/assets/icons/square-instagram.svg" alt="instagram"></a>
