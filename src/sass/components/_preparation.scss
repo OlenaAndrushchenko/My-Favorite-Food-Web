@@ -1,0 +1,29 @@
+.preparation {
+
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    counter-reset: steps;
+}
+
+.step {
+    padding-left: 60px;
+    position: relative;
+
+    &::before {
+        counter-increment: steps;
+        content: '' counter(steps);
+        font-size: 20px;
+        font-weight: 600;
+        color: #FDF9F3;
+        border-radius: 6px;
+        position: absolute;
+        left: 0;
+        background-color: #C8BCAC;
+        padding: 15px;
+    }
+
+}
