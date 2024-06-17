@@ -97,6 +97,10 @@ p, li {
   color: #37332F;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1440px;
   margin-inline: auto;
@@ -237,6 +241,9 @@ footer p {
   border-radius: 6px;
   font-size: 17px;
   font-weight: 600;
+}
+.minutes span:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
