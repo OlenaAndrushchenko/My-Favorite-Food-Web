@@ -33,6 +33,10 @@ p, li {
     color: #37332F;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .container {
     max-width: 1440px;
     margin-inline: auto;

@@ -38,13 +38,17 @@
 .minutes {
     display: flex;
     gap: 5px;
-    span {
 
+    span {
         background-color: #E1D4C2;
         padding: 5px 10px;
         border-radius: 6px;
         font-size: 17px;
         font-weight: 600;
+
+            &:hover {
+                cursor: pointer;
+            }
     }
 }
 
