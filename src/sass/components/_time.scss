@@ -1,5 +1,66 @@
 .time-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 30px;
+    margin-inline: auto;
+
     img {
         max-height: 36px;
+        margin-right: 15px;
+    }
+}
+
+.cooking-time, .timer-time {
+    display: flex;
+    align-items: center;
+    
+    .time {
+        font-size: 46px;
+    }
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    button {
+        background-color: #E1D4C2;
+        padding: 5px 20px;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: 600;
+        width: fit-content;
+        align-self: flex-end;
+    }
+}
+
+.minutes {
+    display: flex;
+    gap: 5px;
+    span {
+
+        background-color: #E1D4C2;
+        padding: 5px 10px;
+        border-radius: 6px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .time-container {
+        flex-direction: row;
+        margin-inline: unset;
+        align-items: center;  
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .time-container {
+        // flex-direction: row;
+        flex-wrap: wrap;
+        // margin-inline: unset;
+        // align-items: center;  
     }
 }

@@ -52,5 +52,14 @@ p, li {
 
 .ingr-time {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 80% 20%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-inline: 20px;
+    }
+    .ingr-time {
+        grid-template-columns: 1fr;
+    }
 }
