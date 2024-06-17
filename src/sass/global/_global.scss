@@ -13,7 +13,7 @@ img {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 40px;
 }
 
 h2 {
@@ -61,5 +61,8 @@ p, li {
     }
     .ingr-time {
         grid-template-columns: 1fr;
+    }
+    h1 {
+        font-size: 30px;
     }
 }

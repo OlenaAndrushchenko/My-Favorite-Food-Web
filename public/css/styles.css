@@ -77,7 +77,7 @@ img {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h2 {
@@ -125,7 +125,14 @@ p, li {
   .ingr-time {
     grid-template-columns: 1fr;
   }
+  h1 {
+    font-size: 30px;
+  }
 }
+header .title {
+  padding-block: 30px;
+}
+
 footer {
   border-top: 1px solid black;
   padding: 15px;
@@ -135,9 +142,11 @@ footer .footer {
   justify-content: space-between;
   align-items: center;
   background-color: #58524B;
+  gap: 30px;
 }
 footer p {
   font-size: 14px;
+  color: #FDF9F3;
 }
 
 .social-icons {
@@ -145,10 +154,15 @@ footer p {
   gap: 30px;
 }
 .social-icons img {
-  max-width: 32px;
+  width: 32px;
   max-height: 32px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+}
 .ingredients {
   background-color: #E1D4C2;
   display: grid;

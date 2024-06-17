@@ -7,10 +7,12 @@ footer {
         justify-content: space-between;
         align-items: center;
         background-color: #58524B;
+        gap: 30px;
     }
 
     p {
         font-size: 14px;
+        color: #FDF9F3;
     }
 }
 
@@ -19,7 +21,13 @@ footer {
     gap: 30px;
 
     img {
-        max-width: 32px;
+        width: 32px;
         max-height: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
     }
 }
